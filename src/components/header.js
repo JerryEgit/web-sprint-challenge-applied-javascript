@@ -40,7 +40,7 @@ const headerAppender = (selector) => {
   //
   document
   .querySelector(selector)
-  .appendChild(header("Lambda Times","08/06/2021","76°"));
-}
+  .appendChild(Header("Lambda Times","08/06/2021","76°"));
+};
 
-export { Header, headerAppender }
+export { Header, headerAppender };
